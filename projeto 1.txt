@@ -1,0 +1,67 @@
+Gestão de comércio
+Klauber Maciel: KlauberMaciel
+ Repositório: 
+
+Projeto 1
+
+O “o projeto 1 ” e um o programa para gerenciamento de comércios simples ou pequenos, ele tem como objetivo na administração de uma loja além de melhorar a organização, controle e eficiência da empresa e aumentar a produtividade reduzindo custos operacionais. 
+Com o “o projeto”, vai se possível  controlar as vendas de clientes, fazer registros, ver o estoque e pagamentos. 
+Além disso, o sistema será acessado por diferentes usuários, com níveis de permissão diferentes, permitindo que o gestor tenha maior controle sobre as atividades realizadas pelos funcionários.
+O MerceCtrl oferece diversas vantagens para a gestão de uma mercearia, dentre as quais podemos destacar:
+1.	
+Controle de estoque: O sistema permite gerenciar o estoque da mercearia, facilitando a organização e o controle dos produtos em estoque, evitando a falta de produtos e o excesso de estoque.
+2.	
+Registro de compras e vendas: O sistema permite registrar as compras e vendas de produtos, facilitando o controle financeiro da mercearia e permitindo a identificação de produtos mais vendidos e com maior margem de lucro.
+3.	
+Geração de relatórios: O sistema permite gerar relatórios de movimentação de estoque, vendas e faturamento, facilitando a análise de dados e a tomada de decisão.
+4.	
+Controle de caixa: O sistema permite o controle do fluxo de caixa da mercearia, facilitando a gestão financeira e o pagamento de fornecedores.
+5.	
+Agilidade no atendimento: O sistema permite integrar equipamentos de automação comercial, como leitores de código de barras, facilitando a operação e otimizando o processo de venda e controle de estoque, o que resulta em um atendimento mais rápido e eficiente para os clientes.
+Em resumo, o MerceCtrl permite a gestão completa da mercearia, desde o controle de estoque até o fluxo de caixa, o que resulta em uma gestão mais organizada e eficiente, com maior controle sobre as operações e redução de custos operacionais.
+
+
+
+
+
+
+Requisitos funcionais
+
+
+1.	Cadastro de Produtos: O sistema deve permitir o cadastro de produtos, com informações como nome, descrição, código de barras, categoria, preço de compra, preço de venda e quantidade em estoque.
+2.	Registro de Compras: O sistema deve permitir o registro de compras de produtos, com informações como data da compra, fornecedor, produtos adquiridos, valor total da compra e forma de pagamento.
+3.	Registro de Vendas: O sistema deve permitir o registro de vendas de produtos, com informações como data da venda, cliente, produtos vendidos, valor total da venda e forma de pagamento.
+4.	Controle de Estoque: O sistema deve permitir o controle de estoque dos produtos, com informações sobre a quantidade em estoque, o ponto de reposição e o estoque mínimo.
+5.	Relatórios: O sistema deve permitir a geração de relatórios de movimentação de estoque, vendas e faturamento, permitindo análises e tomada de decisão.
+6.	Gestão de Fornecedores: O sistema deve permitir o cadastro e a gestão de fornecedores, com informações sobre os produtos adquiridos e os valores de compra.
+7.	Gestão de Clientes: O sistema deve permitir o cadastro e a gestão de clientes, com informações sobre as vendas realizadas e os valores de venda.
+8.	Integração com Equipamentos de Automação: O sistema deve permitir a integração com equipamentos de automação comercial, como leitores de código de barras e balanças, facilitando a operação e otimizando o processo de venda e controle de estoque.
+9.	Segurança: O sistema deve oferecer mecanismos de segurança para proteger as informações cadastradas e garantir a privacidade dos dados dos clientes e fornecedores.
+
+                 Requisitos não funcionais
+
+1.	Usabilidade: O sistema deve ser fácil de usar, com interface intuitiva e amigável, permitindo que os usuários possam operá-lo sem a necessidade de treinamentos extensivos.
+2.	Performance: O sistema deve ser rápido e responsivo, com tempo de resposta adequado para as operações realizadas, especialmente em relação à geração de relatórios e consultas no banco de dados.
+3.	Confiabilidade: O sistema deve ser confiável e estável, evitando falhas e garantindo a disponibilidade dos dados e das funcionalidades.
+4.	Segurança: O sistema deve garantir a segurança dos dados, com mecanismos de autenticação e autorização adequados, além de backups regulares para evitar perda de informações.
+5.	Escalabilidade: O sistema deve ser escalável, permitindo que possa ser ampliado de acordo com as necessidades da mercearia.
+6.	Manutenção: O sistema deve ser de fácil manutenção, permitindo a correção de eventuais problemas e a atualização de suas funcionalidades.
+7.	Documentação: O sistema deve ser devidamente documentado, com manuais e instruções de uso, facilitando a sua utilização e a resolução de eventuais problemas pelos usuários e desenvolvedores.
+
+Cadastro de produtos:
+1.	Cada produto deve possuir um nome único, que identifica de forma clara e objetiva o produto em questão.
+2.	Deve ser obrigatório informar a descrição do produto, incluindo detalhes como marca, modelo, tamanho, peso, cor, sabor, entre outros.
+3.	Cada produto deve possuir um código de barras único, que pode ser lido por leitores de código de barras, facilitando o processo de vendas e controle de estoque.
+4.	Deve ser obrigatório informar a categoria do produto, como alimentos, bebidas, produtos de higiene, produtos de limpeza, entre outros.
+5.	Deve ser obrigatório informar o preço de venda do produto, bem como o preço de compra, permitindo o cálculo de margens de lucro e o controle de estoque.
+6.	Deve ser obrigatório informar a quantidade de unidades disponíveis em estoque, para que seja possível fazer o controle de vendas e a reposição de estoque.
+7.	O sistema deve permitir a edição e exclusão dos produtos cadastrados, bem como a busca de produtos por nome, código de barras, categoria, entre outros critérios.
+8.	O cadastro de novos produtos deve ser permitido apenas para usuários com permissões adequadas, garantindo a segurança e a integridade dos dados.
+
+Registros de compras:
+1.	Ao registrar a compra de produtos da mercearia, é obrigatório registrar o nome do fornecedor, a data da compra e o número da nota fiscal.
+2.	Cada produto comprado deve ser registrado no sistema, informando o nome, a quantidade e o preço de compra.
+3.	O sistema deve permitir a inclusão de descontos e taxas extras na compra, como frete, impostos, entre outros.
+4.	Deve ser possível associar uma compra a um pedido de reposição de estoque, para que o sistema possa fazer a atualização automática do estoque.
+5.	O cadastro de novas compras deve ser permitido apenas para usuários com permissões adequadas, garantindo a segurança e a integridade dos dados.
+
